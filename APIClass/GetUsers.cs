@@ -9,6 +9,7 @@ namespace APIClass
     {
         public string FirstName { get; set; }
 
+        //method to get users list from page 2 in reqres.in
         public ListOfUsersDTO GetUsersList()
         {
             var restClient = new RestClient("https://reqres.in");
