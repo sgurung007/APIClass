@@ -3,6 +3,7 @@ using NUnit.Framework;
 
 namespace APITest
 {
+    //this is fucking awesome
     public class Tests
     {
         [SetUp]
